@@ -1,6 +1,7 @@
 # wjkj tool
 
 # wjkj_log
+
 ## e.g.
 ```
 wjLog := wjkj-tool.InitWjkjLogger("./wjkj.log", "debug")
