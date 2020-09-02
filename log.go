@@ -6,9 +6,9 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
-// logpath 日志文件路径
-// loglevel 日志级别
-func InitWjkjLogger(logPath string, logLevel string) *zap.SugaredLogger {
+// logPath 日志文件路径
+// logLevel 日志级别
+func InitLogger(logPath string, logLevel string) *zap.SugaredLogger {
 	hook := lumberjack.Logger{
 		Filename:   logPath, // 日志文件路径
 		MaxSize:    128,     // megabytes
