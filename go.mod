@@ -1,4 +1,4 @@
-module wjkj-tool
+module tool
 
 go 1.14
 
