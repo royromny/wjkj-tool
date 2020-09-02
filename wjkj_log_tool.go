@@ -1,4 +1,4 @@
-package wjkj_tool
+package tool
 
 import (
 	"github.com/natefinch/lumberjack"
