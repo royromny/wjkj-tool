@@ -5,6 +5,6 @@
 ## e.g.
 
 ```
-wjLog := wjkj-tool.InitWjkjLogger("./wjkj.log", "debug")
+wjLog := wjkjtool.InitLogger("./wjkj.log", "debug")
 wjLog.Debugf("lof for roy. id=%d param=%s", 4, "test")
 ```	
