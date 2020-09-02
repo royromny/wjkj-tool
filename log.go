@@ -42,7 +42,7 @@ func InitLogger(logPath string, logLevel string) *zap.SugaredLogger {
 	)
 
 	logger := zap.New(core)
-	logger.Sugar().Info("Wjkj Logger init success, in %s", logPath)
+	logger.Sugar().Infof("Wjkj Logger init success, in %s", logPath)
 
 	return logger.Sugar()
 }
